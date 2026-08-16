@@ -1,50 +1,28 @@
-# NVIDIA Robotics Day @ UT Austin — April 13, 2026
+# UT Austin x NVIDIA Robotics Tech Day — Talk Materials
 
-This repository contains the slide deck from my talk at the **NVIDIA Robotics Day** held at the University of Texas at Austin (Gates Dell Complex). The materials are shared openly for anyone who attended, missed the event, or is following NVIDIA's work in Physical AI.
+This repository contains the open-source slide deck for the talk "World Foundation Models for Physical AI: Scaling Robot Learning with NVIDIA Cosmos," delivered at the NVIDIA Robotics Day @ UT Austin event.
 
----
+## Contents
 
-## My Talk: Cosmos — World Foundation Models for Physical AI
+| File | Description |
+|------|-------------|
+| [NV Tech day - Cosmos master - 20260412.pdf](NV%20Tech%20day%20-%20Cosmos%20master%20-%2020260412.pdf) | Slides on NVIDIA Cosmos — world foundation models for scalable physical-world generation and reasoning. |
 
-**Slides:** [NV Tech day - Cosmos master - 20260412.pdf](NV%20Tech%20day%20-%20Cosmos%20master%20-%2020260412.pdf)
-
-The talk covers how NVIDIA uses large-scale generative models to address the core challenges in physical AI — complex manipulation and locomotion. Key topics include:
-
-- **Cosmos Transfer** — video-to-video world generation for bridging the sim-to-real gap
-- **Cosmos Predict** — autoregressive and diffusion-based world models for predicting physical dynamics
-- How to access and run Cosmos on GPU clusters (including TACC's Blackwell system at UT Austin)
-
----
+The deck frames Cosmos as a foundational layer for physical AI: Cosmos provides the world model, simulation, and data-generation infrastructure that enables robot learning to scale — bridging the gap between synthetic simulation and real-world deployment.
 
 ## About the Event
 
-NVIDIA Robotics Day @ UT Austin was a full-day technical event bringing together NVIDIA engineers and university robotics researchers to share the latest in Physical AI tools and infrastructure.
+This talk was part of a full-day event co-hosted by UT Austin and NVIDIA, focused on Physical AI and robot learning. The day combined an NVIDIA robotics technology overview, UT Austin researcher lightning talks, and hands-on labs, including:
 
-**Highlights from the day:**
+- An overview of NVIDIA's full-stack robotics portfolio and R&D roadmap
+- Lightning talks from UT Austin researchers working across manipulation, locomotion, and physical AI
+- This talk on Cosmos world models for scaling robot learning
+- A session on developing, simulating, and deploying Physical AI with Isaac
+- A hands-on lab training a sim-to-real reinforcement learning policy for a gear-insertion task, run on UT Austin's Blackwell cluster at TACC
+- An overview of NVIDIA's academic and startup ecosystem programs (Academic Grant Program, Inception, Teaching Kits)
 
-| Time | Session |
-|------|---------|
-| 8–10am | Office Hours — scheduled 1:1s between NVIDIA and university labs |
-| 10:00 | Welcome & Introductions — UT Austin's robotics history and the new Blackwell GPU cluster at TACC |
-| 10:15 | NVIDIA Robotics Overview — full-stack robotics portfolio and long-term R&D roadmap |
-| 10:45 | **Cosmos: World Foundation Models for Physical AI** *(this talk)* |
-| 12:00 | Working Lunch — Isaac: Developing, Simulating, and Deploying Physical AI; student lightning talks from multiple UT Austin robotics labs |
-| 1:00 | Technical Lab — Hands-on RL training for gear insertion that transfers from sim to a real robot |
-| 3:00 | Demo — Isaac Lab training run on UT Austin's Blackwell cluster at TACC |
-| 3:30 | NVIDIA Ecosystem & Research Support — AGP, Inception, and Teaching Kit programs |
+The event drew robotics researchers and students working across simulation, learning, and deployment for physical AI systems, with compute access provided via BREV and the Texas Robotics cluster at TACC.
 
-**Compute:** The event highlighted access to BREV and the Texas Robotics cluster at TACC, which UT Austin researchers can use to run NVIDIA's full robotics stack including Isaac and Cosmos.
+## Why This Repo
 
----
-
-## Resources
-
-- [NVIDIA Cosmos](https://www.nvidia.com/en-us/ai/cosmos/) — world foundation model platform for Physical AI
-- [NVIDIA Isaac](https://developer.nvidia.com/isaac) — robotics simulation and deployment framework
-- [NVIDIA Robotics](https://www.nvidia.com/en-us/robotics/) — full robotics portfolio
-
----
-
-## Contact
-
-Questions about the talk or Cosmos? Feel free to open an issue or reach out via GitHub.
+The slides here are shared publicly so that anyone interested in Physical AI, world models, or robot learning infrastructure can review the material independently of the live talk. If you're working in this space and want to connect on NVIDIA Cosmos or the broader robotics platform, feel free to reach out or watch this space for related updates.
